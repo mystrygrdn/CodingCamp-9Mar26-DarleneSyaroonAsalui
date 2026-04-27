@@ -61,11 +61,3 @@ It features a dynamic greeting system, a functional Pomodoro timer, and a robust
 | **Architecture** | Modular Class Structure |
 | **Load Time** | < 500ms (Ultra Fast) |
 | **Responsiveness** | Mobile & Desktop Friendly |
-
----
-
-## 🚀 How to Use
-
-1. **Clone the repository**
-   ```bash
-   git clone [https://github.com/mystrygrdn/browser-start-page.git](https://github.com/mystrygrdn/browser-start-page.git)
