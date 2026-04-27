@@ -1,107 +1,71 @@
-# Browser Start Page
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="100" alt="JavaScript Logo"/>
+</p>
 
-A clean, modern browser start page with productivity features built using vanilla HTML, CSS, and JavaScript.
+<h1 align="center">🚀 Productivity Browser Start Page</h1>
 
-## Features
+<p align="center">
+  A clean, modern browser start page with productivity features built using vanilla HTML, CSS, and JavaScript.
+  <br/>
+  <em>RevoU Coding Camp Project — Batch 09, 2026</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Storage-LocalStorage-orange" alt="LocalStorage"/>
+  <img src="https://img.shields.io/badge/UI-Minimalist-black" alt="Minimalist"/>
+</p>
+
+---
+
+## 📖 About This Project
+
+This **Browser Start Page** is a productivity-focused dashboard designed to replace the default "New Tab" page. Built entirely with **Vanilla JavaScript**, this project focuses on performance, data persistence, and clean UI/UX without relying on external frameworks.
+
+It features a dynamic greeting system, a functional Pomodoro timer, and a robust task management system—all of which save your data locally to ensure your productivity setup stays just the way you left it.
+
+---
+
+## ✨ Features
 
 ### 🕒 Time & Greeting Display
-- Real-time clock with 12-hour format
-- Current date display
-- Dynamic greeting based on time of day (Good morning/afternoon/evening/night)
+- **Real-time Clock:** 12-hour format tracking.
+- **Dynamic Greeting:** Based on the time of day (Morning, Afternoon, Evening, Night).
+- **Date Display:** Keeps you updated with the current date.
 
 ### ⏱️ Focus Timer (Pomodoro)
-- Customizable timer duration (1-120 minutes, default 25 minutes)
-- Start, stop, and reset functionality
-- Settings panel for timer customization
-- Timer preferences saved in localStorage
+- **Customizable:** Adjust duration from 1-120 minutes.
+- **Full Control:** Start, stop, and reset functionality.
+- **Smart Saving:** Timer preferences are saved in `localStorage`.
 
 ### ✅ Task Management
-- Add, edit, and delete tasks
-- Mark tasks as complete/incomplete
-- Task sorting options:
-  - Newest First / Oldest First
-  - Alphabetical (A-Z / Z-A)
-  - Incomplete First / Completed First
-- Tasks persist in localStorage
-- Sort preferences saved
+- **Full CRUD:** Add, edit, and delete tasks seamlessly.
+- **Smart Sorting:** Sort by Date (Newest/Oldest), Alphabetical, or Completion Status.
+- **Persistence:** All tasks remain even after closing the browser.
 
-### 🔗 Quick Links
-- Add favorite website shortcuts
-- URL validation (requires http:// or https://)
-- Click to open links (Ctrl/Cmd+click for new tab)
-- Delete unwanted links
-- Links persist in localStorage
+### 🔗 Quick Links & Themes
+- **Shortcuts:** Add favorite websites with URL validation.
+- **Dark Mode:** Smooth transitions between Light and Dark themes.
+- **Zero Dependencies:** Pure vanilla code for ultra-fast loading.
 
-### 🌙 Theme Toggle
-- Light and dark mode support
-- Smooth theme transitions
-- Theme preference saved in localStorage
-- Accessible theme toggle button
+---
 
-## How to Use
+## 🛠️ Tech Stack & Performance
 
-1. **Open the application**: Simply open `index.html` in any modern web browser
-2. **No installation required**: Pure vanilla JavaScript - no dependencies needed
-3. **All data is saved locally**: Your tasks, links, and preferences are stored in your browser's localStorage
+| Category | Technology / Metric |
+|---|---|
+| **Language** | HTML5, CSS3, Vanilla JavaScript |
+| **Persistence** | Browser LocalStorage API |
+| **Architecture** | Modular Class Structure |
+| **Load Time** | < 500ms (Ultra Fast) |
+| **Responsiveness** | Mobile & Desktop Friendly |
 
-## Project Structure
+---
 
-```
-browser-start-page/
-├── index.html          # Main HTML file
-├── css/
-│   └── styles.css      # Single CSS file with theme support
-├── js/
-│   └── app.js          # Single JavaScript file with all functionality
-└── README.md           # This documentation file
-```
+## 🚀 How to Use
 
-## Browser Compatibility
-
-- Chrome 90+
-- Firefox 88+
-- Edge 90+
-- Safari 14+
-
-## Features in Detail
-
-### Theme System
-- CSS custom properties for seamless theme switching
-- Automatic theme persistence
-- Smooth color transitions
-
-### Timer Settings
-- Adjustable duration from 1 to 120 minutes
-- Settings dropdown with apply button
-- Dynamic timer updates without losing progress
-
-### Task Sorting
-- Six different sorting options
-- Real-time sorting updates
-- Persistent sort preferences
-
-### Data Persistence
-- All user data stored in localStorage
-- Graceful handling of storage unavailability
-- Data validation and error recovery
-
-## Technical Implementation
-
-- **Pure Vanilla JavaScript**: No frameworks or libraries
-- **Component-based Architecture**: Modular class structure
-- **CSS Custom Properties**: For theme system
-- **Local Storage API**: For data persistence
-- **Responsive Design**: Works on desktop and mobile
-- **Accessibility**: Proper ARIA labels and keyboard navigation
-
-## Performance
-
-- Initial load time: <500ms
-- Interaction response: <100ms
-- Storage operations: <50ms
-- No external dependencies
-- Minimal resource usage
-
-## License
-
-MIT License - Feel free to use and modify as needed.
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/mystrygrdn/browser-start-page.git](https://github.com/mystrygrdn/browser-start-page.git)
